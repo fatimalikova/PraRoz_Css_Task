@@ -92,7 +92,7 @@ ul li a:hover{
     height: 40px;
     background:rgb(219, 95, 0);
     border: 2px solid rgb(219, 95, 0);
-    color: white;
+    color: black;
     margin-top: 13px;
     font-size: 15px;
     border-bottom-right-radius: 5px;
@@ -102,8 +102,9 @@ ul li a:hover{
 }
 
 .btn:hover{
-    background-color: white;
-    color: rgb(219, 95, 0);
+    background-color:rgb(145, 65, 4);
+    border: 2px solid rgb(145, 65, 4);
+    color: white;
 }
 .btn:focus{
     outline: none;
@@ -167,7 +168,7 @@ ul li a:hover{
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.6));
     position: absolute;
     top: -20px;
     left: 870px;
@@ -262,4 +263,6 @@ ul li a:hover{
 
 .icons a:hover{
     color: rgb(219, 95, 0);
+    transform: scale(1.2);
+
 }
